@@ -2,8 +2,7 @@ const mongoose = require('mongoose')
 
 const connectDB = async (url)=>{
     try{
-        const result = await mongoose.connect(url)
-        console.log(result)
+       await mongoose.connect(url) 
     }catch(e){
         console.log(e)
     }
