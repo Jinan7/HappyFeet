@@ -14,7 +14,7 @@ const app = express()
 dotenv.config() //load environment variables
 const port = process.env.PORT   //get port
 const mongo_url = process.env.MONGO_URI  //get mongo connection string
-
+app.use(express.json())
 app.use('/api/v1/products', productRouter)
 app.use('/api/v1/auth', authRouter)
 app.use('*', notFound)
