@@ -1,9 +1,10 @@
 import {Outlet, RouterProvider, createBrowserRouter} from 'react-router-dom'
+import Home from './pages/Home'
 
 const router = createBrowserRouter([
     {
         path:'/',
-        element:<h1><Outlet/></h1>,
+        element:<Home/>,
         children:[
             {
                 index:true,
