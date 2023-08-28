@@ -2,11 +2,17 @@ import { ADD_ITEM, DELETE_ITEM, CLEAR_CART } from "./actions"
 
 
 
-export const reducer = (cart, action) =>{
-    console.log(cart)
-    if(action.type == ADD_ITEM){
-        cart = [...cart, action.payload]
+export const reducer = (state, action) =>{
+    if(action.type === ADD_ITEM){
+        return {...state,cart:[...state.cart, action.payload]}
     }
 
-    return cart
+    if(action.type === DELETE_ITEM){
+        const newCart = state.cart.filter((item)=>{
+            return item._id !== action.payload
+        })
+
+        return {...state, cart:newCart}
+    }
+
 }
