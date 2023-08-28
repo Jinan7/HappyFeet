@@ -23,9 +23,14 @@ const Products = () => {
     return (<Wrapper>
         <ProductContext.Provider value={{products}}>
         <Navbar/>
+        
         <div className="container">
-            <SideBar/>
+            <div className="products">
+            <h2 className="title">
+            products
+             </h2>
             <ProductsContainer/>
+            </div>
         </div>
         </ProductContext.Provider>
     </Wrapper>)
