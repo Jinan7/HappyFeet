@@ -1,0 +1,619 @@
+[
+    {
+      "name": "UltraBoost 21",
+      "price": 150,
+      "size": "9",
+      "brand": "adidas",
+      "colors": ["Black", "White"],
+      "inventory": 50,
+      "average_rating": 4.7
+    },
+    {
+      "name": "Air Max 270",
+      "price": 130,
+      "size": "8.5",
+      "brand": "nike",
+      "colors": ["Grey", "Blue"],
+      "inventory": 75,
+      "average_rating": 4.9
+    },
+    {
+      "name": "RS-X Bold",
+      "price": 110,
+      "size": "10",
+      "brand": "puma",
+      "colors": ["Red", "Black"],
+      "inventory": 40,
+      "average_rating": 4.2
+    },
+    {
+      "name": "Fresh Foam 1080",
+      "price": 140,
+      "size": "9.5",
+      "brand": "new-balance",
+      "colors": ["Green", "Grey"],
+      "inventory": 60,
+      "average_rating": 4.6
+    },
+    {
+      "name": "HOVR Phantom 2",
+      "price": 120,
+      "size": "10.5",
+      "brand": "under armour",
+      "colors": ["Black", "Red"],
+      "inventory": 55,
+      "average_rating": 4.4
+    },
+    {
+      "name": "Chuck Taylor All Star",
+      "price": 55,
+      "size": "8",
+      "brand": "converse",
+      "colors": ["White", "Blue"],
+      "inventory": 90,
+      "average_rating": 4.8
+    },
+    {
+      "name": "Old Skool",
+      "price": 65,
+      "size": "7.5",
+      "brand": "vans",
+      "colors": ["Black", "White"],
+      "inventory": 80,
+      "average_rating": 4.5
+    },
+    {
+      "name": "Air Zoom Pegasus 38",
+      "price": 120,
+      "size": "9.5",
+      "brand": "nike",
+      "colors": ["Blue", "White"],
+      "inventory": 70,
+      "average_rating": 4.6
+    },
+    {
+      "name": "Suede Classic",
+      "price": 75,
+      "size": "10",
+      "brand": "puma",
+      "colors": ["Red", "Black"],
+      "inventory": 65,
+      "average_rating": 4.3
+    },
+    {
+      "name": "574 Core",
+      "price": 90,
+      "size": "9",
+      "brand": "new-balance",
+      "colors": ["Grey", "White"],
+      "inventory": 55,
+      "average_rating": 4.2
+    },
+    {
+      "name": "Project Rock 3",
+      "price": 140,
+      "size": "10.5",
+      "brand": "under armour",
+      "colors": ["Black", "White"],
+      "inventory": 40,
+      "average_rating": 4.8
+    },
+    {
+      "name": "Chuck 70",
+      "price": 60,
+      "size": "8",
+      "brand": "converse",
+      "colors": ["Black", "Red"],
+      "inventory": 85,
+      "average_rating": 4.7
+    },
+    {
+      "name": "Authentic",
+      "price": 50,
+      "size": "7.5",
+      "brand": "vans",
+      "colors": ["White", "Black"],
+      "inventory": 95,
+      "average_rating": 4.4
+    },
+    {
+      "name": "Questar Flow",
+      "price": 85,
+      "size": "9.5",
+      "brand": "adidas",
+      "colors": ["Blue", "Grey"],
+      "inventory": 60,
+      "average_rating": 4.5
+    },
+    {
+      "name": "React Infinity Run",
+      "price": 130,
+      "size": "10",
+      "brand": "nike",
+      "colors": ["Black", "Orange"],
+      "inventory": 70,
+      "average_rating": 4.9
+    },
+    {
+      "name": "Calibrate Run",
+      "price": 100,
+      "size": "8.5",
+      "brand": "under armour",
+      "colors": ["Grey", "Black"],
+      "inventory": 50,
+      "average_rating": 4.3
+    },
+    {
+      "name": "Classic Leather",
+      "price": 80,
+      "size": "9",
+      "brand": "reebok",
+      "colors": ["White", "Green"],
+      "inventory": 55,
+      "average_rating": 4.6
+    },
+    {
+      "name": "Superstar",
+      "price": 90,
+      "size": "10.5",
+      "brand": "adidas",
+      "colors": ["White", "Gold"],
+      "inventory": 65,
+      "average_rating": 4.7
+    },
+    {
+      "name": "Blazer Mid '77",
+      "price": 110,
+      "size": "8",
+      "brand": "nike",
+      "colors": ["Black", "White"],
+      "inventory": 45,
+      "average_rating": 4.5
+    },
+    {
+      "name": "Rider Play On",
+      "price": 70,
+      "size": "9.5",
+      "brand": "puma",
+      "colors": ["Red", "Blue"],
+      "inventory": 70,
+      "average_rating": 4.2
+    },
+    {
+      "name": "Fresh Foam Roav",
+      "price": 75,
+      "size": "7.5",
+      "brand": "new-balance",
+      "colors": ["Black", "White"],
+      "inventory": 80,
+      "average_rating": 4.4
+    },
+    {
+      "name": "Charged Pursuit 2",
+      "price": 80,
+      "size": "10.5",
+      "brand": "under armour",
+      "colors": ["Grey", "Red"],
+      "inventory": 60,
+      "average_rating": 4.1
+    },
+    {
+      "name": "One Star",
+      "price": 65,
+      "size": "8",
+      "brand": "converse",
+      "colors": ["Blue", "White"],
+      "inventory": 85,
+      "average_rating": 4.3
+    },
+    {
+        "name": "Sk8-Hi",
+        "price": 75,
+        "size": "9",
+        "brand": "vans",
+        "colors": ["Black", "White"],
+        "inventory": 90,
+        "average_rating": 4.4
+      },
+      {
+        "name": "Adizero Adios Pro",
+        "price": 200,
+        "size": "10",
+        "brand": "adidas",
+        "colors": ["Yellow", "Black"],
+        "inventory": 30,
+        "average_rating": 4.9
+      },
+      {
+        "name": "Joyride Run Flyknit",
+        "price": 160,
+        "size": "8.5",
+        "brand": "nike",
+        "colors": ["Grey", "Orange"],
+        "inventory": 60,
+        "average_rating": 4.7
+      },
+      {
+        "name": "Carina Lift",
+        "price": 95,
+        "size": "9.5",
+        "brand": "puma",
+        "colors": ["White", "Pink"],
+        "inventory": 45,
+        "average_rating": 4.2
+      },
+      {
+        "name": "FuelCell Propel V2",
+        "price": 120,
+        "size": "10.5",
+        "brand": "new-balance",
+        "colors": ["Black", "Red"],
+        "inventory": 55,
+        "average_rating": 4.5
+      },
+      {
+        "name": "TriBase Reign 2",
+        "price": 110,
+        "size": "8",
+        "brand": "under armour",
+        "colors": ["Black", "Green"],
+        "inventory": 70,
+        "average_rating": 4.3
+      },
+      {
+        "name": "Jack Purcell",
+        "price": 60,
+        "size": "7.5",
+        "brand": "converse",
+        "colors": ["White", "Black"],
+        "inventory": 80,
+        "average_rating": 4.6
+      },
+      {
+        "name": "Classic Slip-On",
+        "price": 55,
+        "size": "9",
+        "brand": "vans",
+        "colors": ["Checkerboard", "Black"],
+        "inventory": 85,
+        "average_rating": 4.4
+      },
+      {
+        "name": "Solar Boost 3",
+        "price": 130,
+        "size": "9.5",
+        "brand": "adidas",
+        "colors": ["Blue", "White"],
+        "inventory": 60,
+        "average_rating": 4.8
+      },
+      {
+        "name": "React Element 55",
+        "price": 120,
+        "size": "10",
+        "brand": "nike",
+        "colors": ["Black", "Grey"],
+        "inventory": 75,
+        "average_rating": 4.5
+      },
+      {
+        "name": "Kingdom Runner",
+        "price": 90,
+        "size": "8.5",
+        "brand": "puma",
+        "colors": ["Red", "White"],
+        "inventory": 50,
+        "average_rating": 4.1
+      },
+      {
+        "name": "574 Classic",
+        "price": 85,
+        "size": "9",
+        "brand": "new-balance",
+        "colors": ["Grey", "Blue"],
+        "inventory": 65,
+        "average_rating": 4.6
+      },
+      {
+        "name": "Hovr Havoc 2",
+        "price": 110,
+        "size": "10.5",
+        "brand": "under armour",
+        "colors": ["Black", "Grey"],
+        "inventory": 45,
+        "average_rating": 4.3
+      },
+      {
+        "name": "Chuck Taylor Lift",
+        "price": 70,
+        "size": "8",
+        "brand": "converse",
+        "colors": ["White", "Red"],
+        "inventory": 70,
+        "average_rating": 4.7
+      },
+      {
+        "name": "Old Skool Platform",
+        "price": 80,
+        "size": "7.5",
+        "brand": "vans",
+        "colors": ["Black", "White"],
+        "inventory": 90,
+        "average_rating": 4.4
+      },
+      {
+        "name": "Swift Run",
+        "price": 85,
+        "size": "9.5",
+        "brand": "adidas",
+        "colors": ["Black", "Grey"],
+        "inventory": 60,
+        "average_rating": 4.5
+      },
+      {
+        "name": "Air Zoom Structure 24",
+        "price": 140,
+        "size": "10",
+        "brand": "nike",
+        "colors": ["Blue", "White"],
+        "inventory": 70,
+        "average_rating": 4.9
+      },
+      {
+        "name": "TriBase Reign 3",
+        "price": 120,
+        "size": "8.5",
+        "brand": "under armour",
+        "colors": ["Black", "Blue"],
+        "inventory": 55,
+        "average_rating": 4.4
+      },
+      {
+        "name": "Sk8-Mid Reissue",
+        "price": 75,
+        "size": "9",
+        "brand": "vans",
+        "colors": ["White", "Black"],
+        "inventory": 80,
+        "average_rating": 4.6
+      },
+      {
+        "name": "UltraBoost DNA",
+        "price": 160,
+        "size": "10.5",
+        "brand": "adidas",
+        "colors": ["Black", "Green"],
+        "inventory": 50,
+        "average_rating": 4.7
+      },
+      {
+        "name": "Joyride Run 2",
+        "price": 170,
+        "size": "8",
+        "brand": "nike",
+        "colors": ["Grey", "Red"],
+        "inventory": 60,
+        "average_rating": 4.8
+      },
+      {
+        "name": "Cali",
+        "price": 100,
+        "size": "9.5",
+        "brand": "puma",
+        "colors": ["White", "Pink"],
+        "inventory": 45,
+        "average_rating": 4.2
+      },
+      {
+        "name": "Fresh Foam More",
+        "price": 130,
+        "size": "10",
+        "brand": "new-balance",
+        "colors": ["Grey", "Black"],
+        "inventory": 55,
+        "average_rating": 4.5
+      },
+      {
+        "name": "HOVR Infinite 3",
+        "price": 130,
+        "size": "8.5",
+        "brand": "under armour",
+        "colors": ["Black", "Red"],
+        "inventory": 60,
+        "average_rating": 4.6
+      },
+      {
+        "name": "Chuck Taylor All Star Lift",
+        "price": 65,
+        "size": "9",
+        "brand": "converse",
+        "colors": ["White", "Black"],
+        "inventory": 75,
+        "average_rating": 4.4
+      },
+      {
+        "name": "Authentic Lo Pro",
+        "price": 55,
+        "size": "7.5",
+        "brand": "vans",
+        "colors": ["Black", "White"],
+        "inventory": 80,
+        "average_rating": 4.5
+      },
+      {
+        "name": "Solar Blaze",
+        "price": 110,
+        "size": "9.5",
+        "brand": "adidas",
+        "colors": ["Blue", "Grey"],
+        "inventory": 65,
+        "average_rating": 4.3
+      },
+      {
+        "name": "Air Force 1",
+        "price": 90,
+        "size": "10",
+        "brand": "nike",
+        "colors": ["White", "Black"],
+        "inventory": 85,
+        "average_rating": 4.7
+      },
+      {
+        "name": "Rider Wind",
+        "price": 75,
+        "size": "8.5",
+        "brand": "puma",
+        "colors": ["Red", "White"],
+        "inventory": 70,
+        "average_rating": 4.2
+      },
+      {
+        "name": "Fresh Foam 1080v11",
+        "price": 140,
+        "size": "9",
+        "brand": "new-balance",
+        "colors": ["Black", "Green"],
+        "inventory": 60,
+        "average_rating": 4.8
+      },
+      {
+        "name": "HOVR Apex 3",
+        "price": 120,
+        "size": "10.5",
+        "brand": "under armour",
+        "colors": ["Black", "Blue"],
+        "inventory": 50,
+        "average_rating": 4.4
+      },
+      {
+        "name": "One Star Pro",
+        "price": 70,
+        "size": "8",
+        "brand": "converse",
+        "colors": ["White", "Red"],
+        "inventory": 75,
+        "average_rating": 4.6
+      },
+      {
+        "name": "Classic Slip-On Platform",
+        "price": 65,
+        "size": "7.5",
+        "brand": "vans",
+        "colors": ["Checkerboard", "Black"],
+        "inventory": 90,
+        "average_rating": 4.5
+      },
+      {
+        "name": "NMD_R1",
+        "price": 130,
+        "size": "9.5",
+        "brand": "adidas",
+        "colors": ["Grey", "Red"],
+        "inventory": 55,
+        "average_rating": 4.3
+      },
+      {
+        "name": "Air Max 90",
+        "price": 120,
+        "size": "10",
+        "brand": "nike",
+        "colors": ["White", "Blue"],
+        "inventory": 70,
+        "average_rating": 4.8
+      },
+      {
+        "name": "Zone XT",
+        "price": 110,
+        "size": "8.5",
+        "brand": "puma",
+        "colors": ["Black", "Pink"],
+        "inventory": 45,
+        "average_rating": 4.6
+      },
+      {
+        "name": "Fresh Foam Hierro v6",
+        "price": 140,
+        "size": "9",
+        "brand": "new-balance",
+        "colors": ["Blue", "Black"],
+        "inventory": 65,
+        "average_rating": 4.7
+      },
+      {
+        "name": "HOVR Machina 2",
+        "price": 150,
+        "size": "10.5",
+        "brand": "under armour",
+        "colors": ["Black", "Green"],
+        "inventory": 40,
+        "average_rating": 4.5
+      },
+      {
+        "name": "Chuck 70 Hi",
+        "price": 70,
+        "size": "8",
+        "brand": "converse",
+        "colors": ["White", "Blue"],
+        "inventory": 80,
+        "average_rating": 4.3
+      },
+      {
+        "name": "Era",
+        "price": 60,
+        "size": "7.5",
+        "brand": "vans",
+        "colors": ["Black", "White"],
+        "inventory": 85,
+        "average_rating": 4.7
+      },
+      {
+        "name": "Ultraboost 5.0 DNA",
+        "price": 180,
+        "size": "9.5",
+        "brand": "adidas",
+        "colors": ["Black", "Grey"],
+        "inventory": 50,
+        "average_rating": 4.9
+      },
+      {
+        "name": "Air Zoom Vomero 16",
+        "price": 150,
+        "size": "10",
+        "brand": "nike",
+        "colors": ["Blue", "White"],
+        "inventory": 60,
+        "average_rating": 4.7
+      },
+      {
+        "name": "Zone XT Metal",
+        "price": 120,
+        "size": "8.5",
+        "brand": "puma",
+        "colors": ["White", "Silver"],
+        "inventory": 55,
+        "average_rating": 4.3
+      },
+      {
+        "name": "Fresh Foam More Trail v1",
+        "price": 130,
+        "size": "9",
+        "brand": "new-balance",
+        "colors": ["Green", "Black"],
+        "inventory": 65,
+        "average_rating": 4.6
+      },
+      {
+        "name": "Project Rock 4",
+        "price": 160,
+        "size": "10.5",
+        "brand": "under armour",
+        "colors": ["Black", "Red"],
+        "inventory": 40,
+        "average_rating": 4.8
+      }
+    ]
+    
+     
+    
+    
+  
