@@ -10,15 +10,16 @@ const SideBar = () => {
             return !showSide
         })
     }
-    return (<Wrapper onClick={toggleSide}>
+    return (<Wrapper >
             <div className="container">
-            <BiSolidDownArrow className="icon"/>
-            <form action="">
+            <div className="icon-container" onClick={toggleSide}><BiSolidDownArrow className="icon"/></div>
+            {showSide?<form action="">
                 <h4>Brand</h4>
+                <label className="brand" htmlFor="brand">all<input type="checkbox" name="brand" value='all' checked/></label>
                 {brands.map((brand)=>{
-                    return <label className="brand">{brand} <input type="checkbox"></input></label>
+                    return <label className="brand" htmlFor="brand">{brand} <input type="checkbox" name="brand" value={brand}/></label>
                 })}
-            </form>
+            </form>:''}
             </div>
     </Wrapper>)
 }
@@ -40,6 +41,9 @@ const Wrapper = styled.div`
             
         }
         .icon{
+            display:none;
+        }
+        .icon-container{
             display:none;
         }
     }
