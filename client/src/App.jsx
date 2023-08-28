@@ -1,16 +1,22 @@
-import {Outlet, RouterProvider, createBrowserRouter} from 'react-router-dom'
+import {RouterProvider, createBrowserRouter} from 'react-router-dom'
 import Home from './pages/Home'
+import Products, { productLoader } from './pages/Products'
+import SingleProduct, { singleProductLoader } from './pages/SingleProduct'
 
 const router = createBrowserRouter([
     {
         path:'/',
         element:<Home/>,
-        children:[
-            {
-                index:true,
-                element:<h1>whats up</h1>,
-            }
-        ]
+    },
+    {
+        path:'/products',
+        element:<Products/>,
+        loader:productLoader,
+    },
+    {
+        path:'/products/:id',
+        element:<SingleProduct/>,
+        loader:singleProductLoader
     }
 ])
 const App = () => {
