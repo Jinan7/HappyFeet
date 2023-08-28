@@ -7,7 +7,7 @@ const Home = () => {
         <header className="header">
             <h1>happy <span>feet</span> <PiSmileyWinkFill/></h1>
             <p>Discover the Ultimate Comfort and Style Fusion at Happy Feet E-Commerce Store! 🛍️ Step into a World of Trendsetting Footwear, Where Every Pair Tells a Unique Story of Elegance and Joy. Whether You're Strolling Down the Street or Dancing Through Life's Adventures, Let Your Feet Experience True Bliss with Our Premium Collection. From Classic to Contemporary, Find Your Perfect Solemate and Walk Confidently with Unmatched Grace. Your Journey to Happy Feet Begins Here. Step In, Shop, and Step Up Your Style Game Today! </p>
-            <Link to="#" className='btn'>shop now</Link>
+            <Link to="/products" className='btn'>shop now</Link>
         </header>
         </Wrapper>)
 }
