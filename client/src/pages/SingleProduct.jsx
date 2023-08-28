@@ -22,7 +22,7 @@ export const singleProductLoader = async ({params}) => {
 const SingleProduct = () => {
     const product = useLoaderData()
     const {addToCart} = useContext(AppContext)
-    const {brand, colors, image, inventory, name, price, description, size} = product
+    const {brand, colors, image, inventory, name, price, description, size, _id} = product
     
     return(<Wrapper><Navbar/>
         <div className="container">
@@ -34,7 +34,7 @@ const SingleProduct = () => {
                 <span className="size specs">size: {size}</span>
                 <span className="inventory specs">inventory: {inventory}</span>
 
-                <button className="btn" onClick={()=>{addToCart({name, brand, img, price})}}>add to cart</button>
+                <button className="btn" onClick={()=>{addToCart({name, brand, img, price, _id})}}>add to cart</button>
             </div>
         </div>
     </Wrapper>)
@@ -43,6 +43,7 @@ const SingleProduct = () => {
 
 const Wrapper = styled.div`
     background: var(--clr-grey-5);
+    background: linear-gradient(rgb(44,174,186,0.9), rgba(0,0,0,0.9)) ,url(../../images/HappyFeet.jpg) center/cover no-repeat;
     .container{
         padding:1rem;
         display:grid;
@@ -50,11 +51,16 @@ const Wrapper = styled.div`
         min-height: calc(100vh - var(--navheight))
     }
 
+    img{
+        height:50rem;
+        object-fit:cover;
+    }
+
     .specs{
         font-family: 'Gluten', cursive;
         display:block;
         font-weight:600;
-        color:var(--clr-dark-blue);
+        color:var(--clr-grey-10);
         margin-bottom: 0.5rem;
         text-transform:capitalize;
     }
