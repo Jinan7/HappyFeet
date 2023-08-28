@@ -1,12 +1,15 @@
+import { useContext } from "react"
 import { FaShoppingCart, FaCartPlus} from "react-icons/fa"
 import { Link } from "react-router-dom"
 import { styled } from "styled-components"
+import { AppContext } from "../AppContext"
 
 
 const Navbar = () => {
+    const {state} = useContext(AppContext)
     return (<Wrapper>
         <a href="/products"><h2>happy feet</h2></a>
-        <Link><FaShoppingCart className="icon"/></Link>
+        <Link to='/cart'>{state.cart.length === 0?<FaShoppingCart className="icon"/>:<FaCartPlus className="icon"/>}</Link>
     </Wrapper>)
 }
 
