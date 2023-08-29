@@ -27,7 +27,7 @@ const Wrapper = styled.div`
 
     .header h1{
         font-family: 'Barriecito', cursive;
-        font-size: 4rem;
+        font-size: 2rem;
         text-transform:uppercase;
         color: var(--clr-yellow);
     }
@@ -36,9 +36,7 @@ const Wrapper = styled.div`
     }
 
     .header p{
-        /* font-family: 'Gluten', cursive; */
-        letter-spacing: 1.5px;
-        line-height: 1.5rem;
+        
         color: var(--clr-grey-10);
         margin-bottom: 2rem;
     }
@@ -52,6 +50,20 @@ const Wrapper = styled.div`
         font-weight:700;
         font-family: 'Gluten', cursive;
         color:var(--clr-dark-blue);
+    }
+    @media screen and (min-width : 768px){
+        .header h1{
+            font-family: 'Barriecito', cursive;
+            font-size: 4rem;
+            text-transform:uppercase;
+        }
+        .header p{
+        /* font-family: 'Gluten', cursive; */
+        letter-spacing: 1.5px;
+        line-height: 1.5rem;
+        color: var(--clr-grey-10);
+        margin-bottom: 2rem;
+    }
     }
 `
 
