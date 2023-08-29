@@ -52,7 +52,7 @@ const Wrapper = styled.div`
     }
 
     img{
-        height:50rem;
+        height:20rem;
         object-fit:cover;
     }
 
@@ -94,6 +94,9 @@ const Wrapper = styled.div`
         }
         .info{
             align-self:center;
+        }
+        .img{
+            height:50rem;
         }
     }
 
