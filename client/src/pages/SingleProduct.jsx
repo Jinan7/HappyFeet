@@ -95,7 +95,7 @@ const Wrapper = styled.div`
         .info{
             align-self:center;
         }
-        .img{
+        img{
             height:50rem;
         }
     }

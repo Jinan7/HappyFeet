@@ -264,7 +264,7 @@ Error generating stack: `+i.message+`
         .info{
             align-self:center;
         }
-        .img{
+        img{
             height:50rem;
         }
     }
