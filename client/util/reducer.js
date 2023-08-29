@@ -5,7 +5,7 @@ import { ADD_ITEM, DELETE_ITEM, CLEAR_CART } from "./actions"
 export const reducer = (state, action) =>{
     if(action.type === ADD_ITEM){
         const result = state.cart.find((item)=>{
-            return item._id === action.payload.id
+            return item._id === action.payload._id
         })
 
         if (result) return state
