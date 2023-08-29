@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import {PiSmileyWinkFill} from "react-icons/pi"
-
+import img from '../../images/HappyFeet.jpg'
 const Home = () => {
+    console.log(img)
     return (<Wrapper>
         <header className="header">
             <h1>happy <span>feet</span> <PiSmileyWinkFill/></h1>
@@ -17,7 +18,7 @@ const Wrapper = styled.div`
     min-height:100vh;
     display:grid;
     place-items:center;
-    background: linear-gradient(rgb(44,174,186,0.7), rgba(0,0,0,0.7)) ,url(../../images/HappyFeet.jpg) center/cover no-repeat;
+    background: linear-gradient(rgb(44,174,186,0.7), rgba(0,0,0,0.7)) ,url(/images/HappyFeet.jpg) center/cover no-repeat;
 
     .header{
         width:70vw;

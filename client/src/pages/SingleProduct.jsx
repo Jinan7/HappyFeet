@@ -28,7 +28,7 @@ const SingleProduct = () => {
         <div className="container">
             <img src={img} alt="single product image" className="product-img"/>
             <div className="info">
-                <h1 className="title">{brand} {name}</h1>
+                <h1 className="_title">{brand} {name}</h1>
                 <p>{description||`Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quam aut nisi unde, error molestias quis magnam neque quae quidem excepturi ipsam, rerum consectetur sit corporis doloremque perspiciatis alias tempora reiciendis ipsum ducimus pariatur provident! Praesentium repudiandae distinctio aliquid debitis rem, mollitia id nobis magnam. Voluptate vel assumenda veritatis provident.`}</p>
                 <span className="price specs">price: $ {price}</span>
                 <span className="size specs">size: {size}</span>
@@ -43,7 +43,7 @@ const SingleProduct = () => {
 
 const Wrapper = styled.div`
     background: var(--clr-grey-5);
-    background: linear-gradient(rgb(44,174,186,0.9), rgba(0,0,0,0.9)) ,url(../../images/HappyFeet.jpg) center/cover no-repeat;
+    background: linear-gradient(rgb(44,174,186,0.9), rgba(0,0,0,0.9)) ,url(/images/HappyFeet.jpg) center/cover no-repeat;
     .container{
         padding:1rem;
         display:grid;
@@ -65,7 +65,7 @@ const Wrapper = styled.div`
         text-transform:capitalize;
     }
 
-    .title{
+    ._title{
         text-transform:capitalize;
         font-family: 'Barriecito', cursive;
         color:var(--clr-dark-blue);

@@ -43,7 +43,7 @@ const Wrapper = styled.div`
     @media screen and (min-width: 768px){
         .container{
             display:grid;
-            grid-template-columns: auto 1fr;
+            grid-template-columns: 1fr;
         }
     }
 `

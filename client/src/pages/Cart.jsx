@@ -39,7 +39,6 @@ const Wrapper = styled.div`
     background: var(--clr-grey-1);
     .container{
         padding:1rem;
-        height:100%;
     }
     .empty{
         padding:1rem;
@@ -51,7 +50,8 @@ const Wrapper = styled.div`
         border: 1px solid var(--clr-yellow);
         padding:1rem;
         display:grid;
-        grid-template-rows:repeat(5, 1fr)
+        grid-template-rows:repeat(5, 1fr);
+        height:30rem;
     }
     .order h4{
         text-align:center;
